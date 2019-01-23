@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+	sshCommand = ssh -i /Users/lailysarvarian/.ssh/id_rsa_anna669 -F /dev/null
+[user]
+	name = anna699
+	email = lsannasl165@gmail.com
+[remote "origin"]
+	url = git@github.com:anna699/0xptions-market.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
